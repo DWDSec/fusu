@@ -4,8 +4,11 @@
 ## 📔git相关
 
 1. 先 `fork` 项目到自己的仓库
+
 2. `git clone xxxx/fusu.git` 到自己的本地
+
 3. 每次使用前先 `fetch&merge` ,实际上是用到 `git remote`
+
     ```bash
     #首次使用
     git remote add upstream https://github.com/DWDSec/fusu.git
@@ -23,4 +26,5 @@
 
     git push 
     #或者是git push origin main,如果是差异性更新可以加 --force 参数
+
 4. 这样每次准备进行开发的时候可以保持代码更新并不会合并冲突
