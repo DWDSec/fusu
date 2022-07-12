@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="46acd124-a6aa-4256-bbf4-03f1159ac739" name="192.168.147.142">
+        <fileTransfer rootFolder="/root/dev/src/fusu" accessType="SFTP" host="192.168.147.142" port="22" sshConfigId="b9622e76-e726-4a25-b3b6-a8952d5c1534" sshConfig="root@192.168.147.142:22 password">
+          <advancedOptions>
+            <advancedOptions controlEncoding="UTF-8" dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" isUseRsync="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
