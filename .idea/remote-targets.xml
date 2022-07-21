@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteTargetsManager">
+    <option name="projectDefaultTargetUuid" value="79c133cb-6049-4ed6-a251-2b8d1e14765d" />
+    <targets>
+      <target name="root@192.168.147.142:222" type="ssh/sftp" uuid="b067bb78-2663-4b3a-ad5d-a4ac593f7077">
+        <config>
+          <option name="projectRootOnTarget" value="/root/dev/src/fusu" />
+          <option name="serverName" value="root@192.168.147.142:22 password" />
+        </config>
+        <ContributedStateBase type="GoLanguageRuntime">
+          <config>
+            <option name="compiledExecutablesVolume">
+              <VolumeState>
+                <option name="remotePath" value="/root/dev/src/fusu/bin" />
+              </VolumeState>
+            </option>
+            <option name="goPath" value="/root/go" />
+            <option name="goRoot" value="/usr/local/go/bin/go" />
+            <option name="goVersion" value="go1.18.3 linux/amd64" />
+            <option name="projectSourcesVolume">
+              <VolumeState>
+                <option name="remotePath" value="/root/dev/src/fusu/bin" />
+              </VolumeState>
+            </option>
+          </config>
+        </ContributedStateBase>
+      </target>
+    </targets>
+  </component>
+</project>
